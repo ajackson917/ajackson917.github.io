@@ -1,1 +1,26 @@
+body{
+  background-color: teal;
+  color: pink;
+  font-family: Arial, Helvetica, Sans-serif;
+  margin: 10% 20%;
+}
 
+h1{
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.exp-header {
+  text-align: center;
+  text-transform: Uppercase;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
