@@ -3,22 +3,16 @@ body{
   color: pink;
   font-family: Arial, Helvetica, Sans-serif;
   margin: 10% 20%;
-  --nav-load-time; 300ms;
 }
 
 h1{
   text-align: center;
-  border-bottom: 1px solid white;
-  animation: nav-load 300ms ease-in;
 }
 
 .li {
   list-style: none;
   padding: 10px;
   margin: 0 10 px;
-  animation-name: nav-link-load;
-  animation-timing-function: ease-in;
-  animation-delay: var(--)
 }
 
 h2{
@@ -36,12 +30,4 @@ p{
   border-bottom: 2px solid white;
 }
 
-@keyframes h1-load {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 
